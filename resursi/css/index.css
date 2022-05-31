@@ -1,70 +1,57 @@
 html{
-    background-image: url("../images/resized-image-Promo.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: lightgray;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /*Header sekcija*/
 
 .navbar{
+    display: flex;
     color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    background-color: beige;
+    font-size: 25px;
+    background-color: white;
     width: 100%;
     position: fixed;
     z-index:100;
-    margin-top: -9px;
-    margin-left: -10px;
-    height: 8%;
+    padding: 10px;
 }
 
-.navbar #povezivanje-elemenata-za-fleks{
-    display: inline-flex;
- }
-
-.navbar .vrh{
+.vrh{
     border-style:solid;
-    border-color: brown;
     border-radius: 10px;
-    margin-left: 20px;
-    padding: 3px;
+    margin-left: 10px;
     opacity: 60%;
-    background: brown;
+    background: rgb(30, 152, 196);
+    margin-right: auto;
+    padding: 5px;
+ 
 }
 
-.navbar #elementi-liste-horizontalno{
-    display: inline-flex;
-    float:right;
+#elementi-liste-horizontalno{
+    display:flex;
 }
 
-
-.navbar ul{
-    margin-right: 15px;
-}
 
 .navbar li{
-    margin-right: 10px; 
+    margin-right: 5px; 
+    padding: 5px;
     /*ovako dobijamo razmak izmedju elemenata liste*/
 }
 
-.navbar #prvi{
-    border-color: brown;
-    background: brown; 
+.decor{
+    background: rgb(30, 152, 196);
     border-style:solid; 
     border-radius: 10px;
-    padding: 3px;
     opacity: 60%;
 }
-.navbar #drugi{
-    border-color: brown;
-    background: brown; 
-    border-style:solid; 
-    border-radius: 10px;
-    padding: 3px;
-    opacity: 60%;
-}
+
 
 
 
