@@ -125,8 +125,7 @@ a:hover {
 }
 
 .block{
-    margin-left: 75px;
-    margin-bottom: 15px;
+    margin: 25px 37px;
     padding-bottom: 20px;
     background-color:rgb(125, 197, 223);
     color: white;
