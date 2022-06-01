@@ -1,5 +1,4 @@
 html{
-    background-color: lightgray;
     font-family: 'Philosopher';
 }
 
@@ -20,7 +19,7 @@ html{
     background-color: white;
     width: 100%;
     position: fixed;
-    z-index:100;
+    z-index:1;
     padding: 10px;
 }
 
@@ -63,10 +62,47 @@ a:hover {
 }
 
 
+/*Koncept sekcija*/
 
+.uvod{
+    padding-top: 100px;
+    background-color: rgb(232, 229, 229) ;
+    margin-bottom: 400px;/*ovo izbrisi kasnije!!!!!!!!!!!!!!!*/ 
+}
 
+.uvod h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 45px;
+    opacity: 0.7;
+}
 
+p{
+  font-size: 25px;
+}
 
+.prvi-para{
+    margin-left: 25px;
+    margin-top: 100px;
+    width: 40%;
+    text-align: justify;
+    margin-right: auto;
+}
+
+.prvi-flex{
+   display: flex; 
+}
+
+.prvi-flex img{
+    margin-right: 25px;
+    width: 70%;
+}
+
+figure{
+    text-align: center;
+}
+
+/*Zablude sekcija*/
 
 
 
