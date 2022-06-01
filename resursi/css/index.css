@@ -1,5 +1,6 @@
 html{
     background-color: lightgray;
+    font-family: 'Philosopher';
 }
 
 *{
@@ -15,7 +16,7 @@ html{
     color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     background-color: white;
     width: 100%;
     position: fixed;
@@ -52,42 +53,24 @@ html{
     opacity: 60%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.uvod{
- padding-top: 50px;
- font-size: 25px;
- 
+a, a:visited{
+    text-decoration: none;
+    color: white;
 }
 
-.uvod img{
-    padding-top: 100px;
+a:hover {
+    color: darkblue;
 }
 
 
-.elementi{
-    height: 600px;
-    width: 800px;
-    
-}
 
-a{
-    font-size: 45px;
-    color: red;
-    padding: 20px;
-    text-decoration:none;
-}
+
+
+
+
+
+
+
     
 
 
