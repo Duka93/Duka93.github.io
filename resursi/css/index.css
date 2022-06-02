@@ -119,6 +119,7 @@ a:hover {
 /*Zablude sekcijaa*/
 
 .slike-za-fleks{
+    background-color: rgb(240, 233, 233);
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -139,6 +140,14 @@ a:hover {
     width: 500px;
     height: 400px;
 }
+
+#zablude h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
 
 
 
