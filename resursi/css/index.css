@@ -20,12 +20,12 @@ p{
     color: white;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 23px;
+    font-size: 17px;
     background-color: white;
     width: 100%;
     position: fixed;
     z-index:1;
-    padding: 10px;
+    padding: 5px;
     border-style: solid;
     border-color: rgb(222, 229, 255);
     border-top:none;
@@ -40,7 +40,7 @@ p{
     opacity: 60%;
     background: rgb(30, 152, 196);
     margin-right: auto;
-    padding: 5px;
+    padding: 3px;
  
 }
 
@@ -50,8 +50,8 @@ p{
 
 
 .navbar li{
-    margin-right: 5px; 
-    padding: 5px;
+    margin-right: 1px; 
+    padding: 3px;
     /*ovako dobijamo razmak izmedju elemenata liste*/
 }
 
@@ -95,6 +95,7 @@ a:hover {
     opacity: 1.0;
     width: 40%;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .koncept h1,p,h2{
@@ -124,6 +125,8 @@ a:hover {
     background-color:rgb(125, 197, 223);
     color: white;
     text-align: center;
+    border-radius: 20px;
+    font-size: 15.5px;
 }
 .block figcaption{
     margin-top: 10px;
@@ -132,6 +135,8 @@ a:hover {
 .block img{
     width: 370px;
     height: 270px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #zablude-h1{
