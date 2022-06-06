@@ -1,5 +1,10 @@
 html{
     font-family: 'Philosopher';
+
+}
+
+p{
+    font-size: 20px;
 }
 
 *{
@@ -57,11 +62,12 @@ html{
     opacity: 60%;
 }
 
-a, a:visited{
-    text-decoration: none;
+.navbar a{
     color: white;
 }
-
+.navbar a,a:visited{
+    text-decoration: none;
+}
 a:hover {
     color: darkblue;
 }
@@ -79,9 +85,6 @@ a:hover {
     text-align: center;
 }
 
-.uvod p{
-  font-size: 20px;
-}
 
 .koncept{
     position: absolute;
@@ -133,29 +136,131 @@ a:hover {
 
 #zablude-h1{
     text-align: center;
-    margin-bottom: 25px;
+    padding-top: 15px;
     font-style: italic;
     opacity: 0.7;
+    padding-bottom: 35px;
 }
 
 /*Tablica kalorija*/
 
 
 #tablica-kalorija{
-    margin: 25px 25px;
-}
-
-.img-jedan{
-    height: 508px;
-}
-    
-.image-segment{
+    margin-right: 25px;
+    padding-bottom: 65px;
+    margin-left: 25px;
     display: flex;
-    justify-content: space-between;
+    padding-top: 65px;
 }
 
 #tablica-kalorija h1{
-    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text-segment{
+    margin-right: auto;
+    width: 1100px;
+}
+
+.text-segment ul{
+    font-size: 20px;
+    margin: 25px 25px;
 }
 
 
+.text-segment h2{
+   opacity: 60%;
+   background: rgb(125, 210, 241);
+   padding-top: 10px;
+   padding-left: 7px;
+   height: 50px;
+   color: white;
+}
+
+.text-segment a{
+    text-decoration: none;
+}
+
+#italic{
+    font-style: italic;
+}
+
+.reference img{
+    width: 150px;
+    height: 150px;
+}
+
+.ref-jedan{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(198, 237, 237);
+}
+
+.text-ref{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.text-ref p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.link-ref{
+    color: rgb(89, 195, 231);
+    font-weight: bold;
+}
+
+/*Footer*/
+
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(253, 248, 248);
+    height: 250px;
+    font-size: 15px;
+    opacity: 0.6;
+    border-style: solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(228, 232, 232);
+    color: blue;
+}
+
+.footer-segment{
+    padding-top: 125px;
+    margin-left: 25px;
+    display: flex;
+}
+
+#marg{
+    margin-right: auto;
+}
+
+.right ul{
+    display: flex;
+    font-size: 20px;
+    padding-right: 25px;
+    list-style: none;
+}
+
+.right li{
+    padding-right: 20px;
+}
+
+footer a,a:visited{
+    text-decoration: none;
+}
+
+footer a{
+    color: blue;
+    border-radius: 10px;
+    padding: 8px;
+    border-style: solid;
+}
