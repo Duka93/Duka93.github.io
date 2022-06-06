@@ -83,23 +83,36 @@ a:hover {
   font-size: 20px;
 }
 
-.test{
+.koncept{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(255, 247, 247);
+    background-color: rgba(255, 247, 247, 0.75);
+    opacity: 1.0;
     width: 40%;
+    padding: 10px;
+}
+
+.koncept h1,p,h2{
+    opacity: 1.0 !important;
 }
 
 
 /*Zablude sekcija*/
 
+#zablude{
+    background-color: rgb(240, 233, 233);
+    margin-bottom: 40px;
+}
 .slike-za-fleks{
     background-color: rgb(240, 233, 233);
+    background-size: cover;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 1500px;
+    margin: auto;
 }
 
 .block{
@@ -114,11 +127,11 @@ a:hover {
     text-align: center;
 }
 .block img{
-    width: 500px;
-    height: 400px;
+    width: 370px;
+    height: 270px;
 }
 
-#zablude h1{
+#zablude-h1{
     text-align: center;
     margin-bottom: 25px;
     font-style: italic;
