@@ -40,7 +40,7 @@ p{
     opacity: 60%;
     background: rgb(30, 152, 196);
     margin-right: auto;
-    padding: 3px;
+    padding: 8px;
  
 }
 
@@ -51,7 +51,7 @@ p{
 
 .navbar li{
     margin-right: 1px; 
-    padding: 3px;
+    padding: 8px;
     /*ovako dobijamo razmak izmedju elemenata liste*/
 }
 
@@ -108,6 +108,7 @@ a:hover {
 #zablude{
     background-color: rgb(240, 233, 233);
     margin-bottom: 40px;
+    font-weight: bold;
 }
 .slike-za-fleks{
     background-color: rgb(240, 233, 233);
@@ -219,6 +220,10 @@ a:hover {
 .link-ref{
     color: rgb(89, 195, 231);
     font-weight: bold;
+}
+
+.image-segment img{
+    width: 73%;
 }
 
 /*Footer*/
