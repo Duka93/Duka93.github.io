@@ -1,0 +1,106 @@
+html{
+    background-image: url("../images/resized-image-Promo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Header sekcija*/
+
+.navbar{
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color: beige;
+    width: 100%;
+    position: fixed;
+    z-index:100;
+    margin-top: -9px;
+    margin-left: -10px;
+    height: 8%;
+}
+
+.navbar #povezivanje-elemenata-za-fleks{
+    display: inline-flex;
+ }
+
+.navbar .vrh{
+    border-style:solid;
+    border-color: brown;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 3px;
+    opacity: 60%;
+    background: brown;
+}
+
+.navbar #elementi-liste-horizontalno{
+    display: inline-flex;
+    float:right;
+}
+
+
+.navbar ul{
+    margin-right: 15px;
+}
+
+.navbar li{
+    margin-right: 10px; 
+    /*ovako dobijamo razmak izmedju elemenata liste*/
+}
+
+.navbar #prvi{
+    border-color: brown;
+    background: brown; 
+    border-style:solid; 
+    border-radius: 10px;
+    padding: 3px;
+    opacity: 60%;
+}
+.navbar #drugi{
+    border-color: brown;
+    background: brown; 
+    border-style:solid; 
+    border-radius: 10px;
+    padding: 3px;
+    opacity: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.uvod{
+ padding-top: 50px;
+ font-size: 25px;
+ 
+}
+
+.uvod img{
+    padding-top: 100px;
+}
+
+
+.elementi{
+    height: 600px;
+    width: 800px;
+    
+}
+
+a{
+    font-size: 45px;
+    color: red;
+    padding: 20px;
+    text-decoration:none;
+}
+    
+
+
